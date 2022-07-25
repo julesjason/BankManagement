@@ -9,7 +9,7 @@ namespace BankManagement.Models.Bank
     {
         public int TransactionID { get; set; }
         public string TransactionNumber { get; set; }
-        public double TransactionBalance { get; set; }
+        public double TransactionAmount { get; set; }
         public DateTime TransactionCreationDate { get; set; }
         public DateTime TransactionUpdateDate { set; get; }
         public DateTime TransactionDeleteDate { get; set; }
